@@ -3,11 +3,21 @@ from langchain_openai import OpenAI
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
+import time
 
 if "messages" not in st.session_state:
-    welcome_message = """Hi there! I am a chatbot that helps people to get information about Radek, a data scientist and machine learning engineer. What would you like to know?"""
+    welcome_message = """Hi! I am a chatbot that helps people to get information about Radek. What would you like to know?"""
     st.session_state.messages = [{"role": "assistant", "content": welcome_message}]
-
+    
+    # with st.chat_message("assistant"):
+    #     message_placeholder = st.empty()
+    #     full_response = ""
+    #     for word in welcome_message.split():
+    #         full_response += (word + " ")
+    #         message_placeholder.markdown(full_response + "▌")
+    #         time.sleep(0.1)
+    #     message_placeholder.markdown(full_response)
+            
 if "client" not in st.session_state:
     st.session_state.client = OpenAI(model="gpt-3.5-turbo-instruct", api_key=st.secrets["OPENAI_API_KEY"], streaming=True)
 
