@@ -1,0 +1,4 @@
+faiss
+langchain
+langchain-community
+langchain-openai
