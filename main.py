@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 import time
 
 if "messages" not in st.session_state:
-    welcome_message = """Hi! I am a chatbot that helps people to get information about Radek. What would you like to know?"""
+    welcome_message = """Hi! I'm a chatbot 🤖. I can help you get information about Radek. What would you like to know about him?"""
     st.session_state.messages = [{"role": "assistant", "content": welcome_message}]
     
     # with st.chat_message("assistant"):
@@ -27,7 +27,7 @@ if "retriever" not in st.session_state:
     st.session_state.retriever = vectordb.as_retriever()
 
 if "prompt_template" not in st.session_state:
-    template = """You are a chatbot that helps people to get information about Radek Szostak. Radek is a data scientist and a machine learning engineer. He is always ready to help people. He is also a very good mentor.
+    template = """You are a chatbot that helps people to get information about Radek Szostak. Radek is a data scientist and a machine learning engineer.
     You have access to chat history in order to keep context of the conversation. You are also provided with additional information where you can search for information about Radek. Respond with single assistant message.
 
     % start additional information %
