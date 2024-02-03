@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 import time
 
 if "messages" not in st.session_state:
-    welcome_message = """Hi! I'm a chatbot 🤖. I can help you get information about Radek. What would you like to know about him?"""
+    welcome_message = """Hi! I'm a chatbot. I can help you get information about Radek. What would you like to know about him?"""
     st.session_state.messages = [{"role": "assistant", "content": welcome_message}]
     
     # with st.chat_message("assistant"):
