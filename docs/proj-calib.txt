@@ -1,0 +1,16 @@
+# Document neme: Calibration of aerial thermal imagery using gradient descent
+# Document type: project description
+
+Calibration of aerial thermal imagery using gradient descent
+About
+This is an unconventional application of PyTorch for the calibration of multiple overlapping aerial thermal images using gradient descent. In this project, gradient descent optimization is used twice: for image position alignment during georeferencig and correction of temperature measurements.
+
+Position alignment
+Drone GPS and IMU logging allow for the georeferencing of aerial photos. However, due to GPS and IMU uncertainties, georeferencing is not precise, resulting in misalignments in photo mosaics.
+
+Image mosaics can be aligned in post-processing. Each pair of overlapping photos is aligned (stitched) using the SIFT algorithm provided by the OpenCV library. After acquiring the relative positions between each pair of photos, gradient descent is used to obtain the positions of all photos simultaneously, which is the consensus closest to all aforementioned pair alignments.
+
+During gradient descent optimization, parameters of image affine transformation matrices are tuned. The loss function minimizes differences between affine transformation matrices obtained in pair alignment and affine transformation matrices tuned during optimization.
+
+Temperature correction
+Temperature measurements made using thermal cameras are prone to biases related to changes in the camera's internal components' temperature. This results in notable differences in temperature measurements of the same object visible in two overlapping thermal images. Gradient descent optimization was used to minimize the difference in temperature measurements between overlapping images for all images at once. A tunable parameter was assigned to each photo's bias, and a loss function was constructed to minimize the temperature difference between overlapping parts of images.

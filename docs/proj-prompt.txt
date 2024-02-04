@@ -1,0 +1,5 @@
+# Document neme: User supervised aerial images segmentation
+# Document type: project description
+
+User supervised aerial images segmentation
+Pixel classification based on a small amount of user prompted training points. The solution leverages fully connected neural networks, leaflet GUI and is encapsulated in Docker environment.

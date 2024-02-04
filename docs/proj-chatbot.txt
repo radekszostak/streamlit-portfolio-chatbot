@@ -1,0 +1,20 @@
+# Document neme: Portfolio chatbot assistant
+# Document type: project description
+
+Portfolio chatbot
+About
+This chatbot is designed to provide information about given person. It utilizes OpenAI's GPT-3.5 model to engage in conversations and retrieve relevant information based on user queries.
+
+Features
+Interactive Conversation: The chatbot engages in interactive conversations with users, responding to their queries and providing relevant information.
+Contextual Understanding: It maintains context throughout the conversation, allowing for a more natural and coherent interaction.
+Information Retrieval: The chatbot retrieves additional information from a knowledge base, enhancing its ability to provide comprehensive responses.
+Implementation
+The app is built using Python and Streamlit, a popular framework for building interactive web applications and data visualizations.
+
+Document embedings are generated using OpenAI Embedings API and are stored in FAISS, a library for efficient similarity search and clustering of dense vectors.
+
+LangChain is used to incorporate the chat history and the knowledge base into the prompt.
+
+Try it out!
+Feel free to interact with the chatbot below. Ask any questions you have about me, and the chatbot will provide you with relevant information.

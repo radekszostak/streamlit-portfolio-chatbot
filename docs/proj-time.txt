@@ -1,0 +1,25 @@
+# Document neme: Time series forecasting of groundwater levels
+# Document type: project description
+
+Time series forecasting of groundwater levels
+Presented at the meeting of the project resalized in the framework of the European union program Chist-Era.
+
+Based on the book Forecasting: Principles and Practice by Rob J Hyndman and George Athanasopoulos
+
+Notebook Configuration:
+Solution running in Jupyter Notebook utilizing various Python libraries for data analysis, visualization, and modeling, including Matplotlib, Plotly, Seaborn, Pandas, NumPy, SciPy, and Statsmodels.
+
+Data Description:
+The notebook analyzes groundwater level (GWL) data from two measurement stations and corresponding hydrological data (evaporation, runoff, snowmelt, precipitation) obtained from ERA5 dataset. The data has been preprocessed, including gap filling and resampling to a weekly frequency.
+
+Exploratory Data Analysis (EDA):
+The EDA section explores various aspects of the time series data, including stationarity, autocorrelation, partial autocorrelation, decomposition into trend, seasonality, and residuals, and periodogram analysis to identify dominant frequencies.
+
+Modelling Workflow:
+The modeling section outlines the workflow for predicting groundwater levels:
+
+Fitting a Ridge model using lagged ERA data and the previous time step value of groundwater level as input features.
+Iteratively building test predictions using lagged ERA data and predicted groundwater levels from previous iterations.
+Calculating the standard deviation of residuals for each step of the forecast horizon and establishing a 95% confidence interval.
+Results:
+The results include visualizations of the predicted groundwater levels alongside the actual data, with a focus on assessing the model's performance through metrics such as root mean square error (RMSE) and confidence intervals.

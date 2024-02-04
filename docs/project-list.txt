@@ -1,0 +1,26 @@
+# Document neme: Projects list
+# Document type: list of all plojects
+
+Name: Regression of river water level from drone images using CNNs
+Info: Featured at the prestigious NeurIPS conference
+Tools: CNNs, PyTorch, Drones
+
+Name: Portfolio chatbot
+Info: Q&A chatbot using vector store knowledge base and keeping chat history context.
+Tools: LangChain, FAISS, OpenAI API, Streamlit
+
+Name: Calibration of drone thermal images using gradient descent
+Info: Unconventional application of PyTorch for image calibration
+Tools: PyTorch, OpenCV, Drones, GIS
+
+Name: Time series forecasting of groundwater levels
+Info: Time series specific EDA, forecasting and uncerntainty estimation
+Tools: Scikit, statistical analysis
+
+Name: Aerial images segmentation based on user promted examples
+Info: Using PyTorch for image segmentation based on a small amount of user prompted training points.
+Tools: PyTorch, Docker, Leaflet
+
+Name: Semantic segmentation of water bodies on satellite imagery
+Info: A brand-new dataset based on Sentinel satellite imagery has been prepared specifically for this project. Several CNN segmentation models have been compared.
+Tools: PyTorch, Tensorflow, Satellite, OpenCV

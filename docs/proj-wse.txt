@@ -1,0 +1,19 @@
+# Document neme: Regression of river water level from drone images using CNNs
+# Document type: project description
+
+Regression of river water level from drone images using CNNs
+About
+In this project, convolutional neural networks were employed for the unconventional task of regression, predicting continuous numeric values from image data.
+
+Introduction
+Terrain elevation maps generated using drone photogrammetry often reveal distortions in the water surface, impeding the accurate sampling of water levels from these maps. This study investigates the capability of convolutional neural networks to accommodate the aforementioned perturbations and effectively estimate water levels from photogrammetric rasters.
+
+Methodology
+The proposed machine learning models aim to estimate a single value of water level given an aerial image and an elevation map of the river and adjacent land as input.
+
+Two regression approaches utilizing CNNs were explored: direct regression employing an encoder and a solution based on the prediction of the attention mask by an encoder-decoder architecture, subsequently used to sample values from the photogrammetric elevation map.
+
+Interestingly, no ground truth masks are used for training the solution that predicts attention masks. The solution learns to compose masks by itself under the influence of gradient descent optimization with an MSE loss function.
+
+Results
+Using a CNN encoder for regression performed significantly worse than the mask sampling solution. This indicates that CNN encoders, which are built for image pattern recognition, do not perform well in the task of regression or sampling from input images. However, making appropriate custom modifications that take into account the nature of the ML model and data can lead to excellent results.

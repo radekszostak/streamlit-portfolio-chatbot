@@ -1,4 +1,7 @@
- 	Radosław Szostak
+# Document neme: CV
+# Document type: CV
+
+Radosław (Radek) Szostak
 Data Scientist	
 radekszostak.github.io (portfolio)
 radoslawszostak@gmail.com

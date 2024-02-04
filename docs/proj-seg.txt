@@ -1,0 +1,6 @@
+# Document neme: Semantic segmentation of water bodies on satellite imagery
+# Document type: project description
+
+Semantic segmentation of water bodies on satellite imagery
+About
+A brand new dataset containing labeled images was prepared specifically for this project. The labeling process was semi-automated, assisted by OpenCV. Semantic segmentation is a common application of convolutional neural networks. However, the project implementation was mirrored in both PyTorch and TensorFlow, enabling a practical comparison between these two widely used deep learning frameworks.
