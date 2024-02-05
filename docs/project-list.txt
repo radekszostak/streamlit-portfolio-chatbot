@@ -17,6 +17,10 @@ Name: Time series forecasting of groundwater levels
 Info: Time series specific EDA, forecasting and uncerntainty estimation
 Tools: Scikit, statistical analysis
 
+Name: Prosumer prediction. 
+Info: Forecasting of energy production and consumption for photovoltaics prosumers.
+Tools: LightGBM, Scikit
+
 Name: Aerial images segmentation based on user promted examples
 Info: Using PyTorch for image segmentation based on a small amount of user prompted training points.
 Tools: PyTorch, Docker, Leaflet
