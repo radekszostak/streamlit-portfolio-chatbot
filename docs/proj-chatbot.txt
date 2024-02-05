@@ -12,9 +12,8 @@ Information Retrieval: The chatbot retrieves additional information from a knowl
 Implementation
 The app is built using Python and Streamlit, a popular framework for building interactive web applications and data visualizations.
 
-Document embedings are generated using OpenAI Embedings API and are stored in FAISS, a library for efficient similarity search and clustering of dense vectors.
+Document embedings are generated using OpenAI Embedings API and are stored in FAISS, a library for efficient similarity search.
 
 LangChain is used to incorporate the chat history and the knowledge base into the prompt.
 
-Try it out!
-Feel free to interact with the chatbot below. Ask any questions you have about me, and the chatbot will provide you with relevant information.
+For details see source code at: https://github.com/radekszostak/streamlit-portfolio-chatbot/blob/main/main.py

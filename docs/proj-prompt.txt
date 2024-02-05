@@ -3,3 +3,5 @@
 
 User supervised aerial images segmentation
 Pixel classification based on a small amount of user prompted training points. The solution leverages fully connected neural networks, leaflet GUI and is encapsulated in Docker environment.
+
+See details at: https://github.com/radekszostak/multilayer-prompt-gis-segmentation

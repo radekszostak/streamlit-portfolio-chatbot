@@ -14,3 +14,5 @@ During gradient descent optimization, parameters of image affine transformation 
 
 Temperature correction
 Temperature measurements made using thermal cameras are prone to biases related to changes in the camera's internal components' temperature. This results in notable differences in temperature measurements of the same object visible in two overlapping thermal images. Gradient descent optimization was used to minimize the difference in temperature measurements between overlapping images for all images at once. A tunable parameter was assigned to each photo's bias, and a loss function was constructed to minimize the temperature difference between overlapping parts of images.
+
+More details in paper: https://doi.org/10.3390/drones7110683

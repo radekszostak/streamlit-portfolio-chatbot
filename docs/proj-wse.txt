@@ -17,3 +17,5 @@ Interestingly, no ground truth masks are used for training the solution that pre
 
 Results
 Using a CNN encoder for regression performed significantly worse than the mask sampling solution. This indicates that CNN encoders, which are built for image pattern recognition, do not perform well in the task of regression or sampling from input images. However, making appropriate custom modifications that take into account the nature of the ML model and data can lead to excellent results.
+
+See paper at: https://www.preprints.org/manuscript/202401.2109/v1

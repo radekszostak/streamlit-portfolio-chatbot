@@ -23,3 +23,5 @@ Iteratively building test predictions using lagged ERA data and predicted ground
 Calculating the standard deviation of residuals for each step of the forecast horizon and establishing a 95% confidence interval.
 Results:
 The results include visualizations of the predicted groundwater levels alongside the actual data, with a focus on assessing the model's performance through metrics such as root mean square error (RMSE) and confidence intervals.
+
+See notebook at: https://github.com/radekszostak/waterline-time-series-forecasting/blob/main/forecasting.ipynb
