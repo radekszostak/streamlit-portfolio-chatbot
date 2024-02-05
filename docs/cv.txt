@@ -8,20 +8,21 @@ radoslawszostak@gmail.com
 +48 794 625 183
 Krakow, Poland
 Overview
-Certified data scientist and published researcher skilled in Python. Four years of professional experience in academic research specializing in the analysis and modeling of various types of data. Author of numerous software solutions addressing real-life problems. Experience in deployment to production environments. Nearly three years of experience as a software developer in a commercial company. Oriented towards sharing knowledge and problem-solving.
+Certified data scientist and published researcher skilled in Python. Four years of professional experience in academic research specializing in the analysis and modeling of various types of data. Author of numerous software solutions addressing complex problems. Experience in deployment to production environments. Oriented towards sharing knowledge and problem-solving.
 
 
 Experience
+Personal projects	
+Portfolio assistant. Q&A chatbot using vector store knowledge base and keeping chat history context.
+Prosumer prediction. Forecasting of energy production and consumption for photovoltaics prosumers.
 Doctoral student
 AGH University of Krakow	Oct 2019 – Present
 (4 yrs)
-Using Deep Learning and drones for estimation of river water level. An unconventional regression approach utilizing Convolutional Neural Networks. Featured at prestigious AI conference NeurIPS 2021.
-Calibration of drone thermal images using gradient descent. A custom application of the PyTorch library, in which instead of one large model, many small models were optimized simultaneously to align values of a large number of overlapping aerial images.
-Time series forecasting of groundwater levels. An approach that integrates autoregression with the incorporation of exogenous satellite data for predicting groundwater levels using Ridge regression.
-Semantic segmentation of rivers on satellite imagery. Classical pixel classification task using CNNs. A brand new dataset has been prepared specifically for this project. Developed in two versions using PyTorch and TensorFlow.
+Using Deep Learning and drones for estimation of river water level. An unconventional regression approach utilizing CNNs. Featured at prestigious AI conference NeurIPS 2021.
+Calibration of drone thermal images using gradient descent. A custom application of the PyTorch library, in which many small models were optimized simultaneously to align positions and values of aerial thermal images.
+Time series forecasting of groundwater levels. An approach that integrates autoregression with the incorporation of exogenous satellite data for predicting groundwater levels.
+Semantic segmentation of rivers on satellite imagery. Standard segmentation using CNNs. Semiautomated labelling using OpenCV. Developed in two versions using PyTorch and TensorFlow.
 Geospatial segmentation based on user prompt. GUI tool for semi-supervised aerial image clustering based on small amount of user prompted data.
-High performance cloud computing on cluster computer.
-Communicating analytical results experience gained through participation in three international conferences and writing two English-language scientific articles.
 Interpersonal skills proven as a deputy chairman of the departmental doctoral student government, university teacher and member of an international research group.
 Tutoring
 Self-employment	Sep 2020 – Jun 2023
@@ -34,16 +35,16 @@ Experience in commercial projects, focusing on the development of reliable softw
 
 	Skills
 General	
-• deep learning • classical machine learning • convolutional neural networks • data cleaning • exploratory data analysis • feature engineering • data visualization • cross validation • computer vision • statistical analysis • gradient boosting algorithms • Bayesian optimization • hyperparameter search • multithreading • big data optimization • high performance cloud computing • object oriented programming • databases
+• deep learning • classical machine learning • large language models • convolutional neural networks • data cleaning • exploratory data analysis • feature engineering • data visualization • cross validation • computer vision • statistical analysis • hypothesis testing • gradient boosting algorithms • Bayesian optimization • hyperparameter search • multithreading • big data • cloud computing • object oriented programming • databases
 Python	
-• Pandas / Polars • NumPy / Xarray • Scikit • PyTorch / TensorFlow • StatsModels • OpenCV • Matplotlib / Seaborn • Plotly / Dash • GeoPandas / rasterio / GDAL  • Django
+• Pandas / Polars • NumPy / Xarray • Scikit • PyTorch / TensorFlow • Langchain • StatsModels • OpenCV • Matplotlib / Seaborn • Plotly / Dash • Streamlit • GeoPandas / rasterio / GDAL • Django
 Server
-• Linux • Docker • Slurm • AWS S3 • Postgres
+• Linux • Docker • Slurm • AWS • Postgres
 • MS SQL Server
 Certificates
 Data Science Professional Certificate
 IBM	Aug 2023
-Extensive certification program including CRISP-DM methodology, stakeholder communication strategy, Python and Jupyter based software tools, reporting standards, interactive dashboard development, data mining and machine learning methods for unsupervised clustering and supervised classification and regression.
+Extensive certification program including CRISP-DM methodology, stakeholder communication, Python and Jupyter based software tools, reporting standards, interactive dashboard development, data mining and machine learning methods for unsupervised clustering and supervised classification and regression.
 Fundamentals of Accelerated Computing with CUDA C/C++
 NVIDIA	Jun 2022
 Low level GPU programming in C++.
