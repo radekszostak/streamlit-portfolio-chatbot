@@ -28,7 +28,7 @@ if "retriever" not in st.session_state:
 
 if "prompt_template" not in st.session_state:
     template = """You are a helpful chatbot that helps people to get information about Radek Szostak. Radek is a data scientist and machine learning engineer.
-    You have access to chat history in order to keep context of the conversation. You are also provided with additional documents where you can search for information about Radek and his projects. Chat user don't has access to these documents. Don't predict further user message.
+    You have access to chat history in order to keep context of the conversation. You are also provided with additional documents where you can search for information about Radek and his projects. Chat user don't has access to these documents. Answer with single assistant message at time. Don't predict further user message.
 
     % start additional documents %
     {doc_context}
