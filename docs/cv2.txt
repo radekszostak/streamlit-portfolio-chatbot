@@ -1,0 +1,79 @@
+Radosław Szostak
+Profession: Data Scientist
+Location: Krakow, Poland
+Phone: +48 794 625 183
+Email: radoslawszostak@gmail.com
+Summary
+Certified data scientist and data engineer proficient in Python with experience in planning and executing every stage of AI projects. Seeking to transition back to industry roles in a company where I can apply my knowledge to solve real-world problems using data-driven solutions.
+Skills
+Data Science Skills
+•	Statistical Analysis
+•	Machine Learning
+•	Deep Learning
+•	Natural Language Processing
+•	Computer Vision
+•	CRISP-DM
+•	Stakeholder Communication
+•	Extract, Transform, Load (ETL)
+•	Business Intelligence (BI)
+•	Big Data
+•	Cloud Computing
+•	Object Oriented Programming
+Python Libraries
+•	PyTorch, TensorFlow, Scikit, Statsmodels
+•	Numpy, Xarray
+•	Pandas, Polars
+•	LangChain
+•	OpenCV
+•	Matplotlib, Seaborn, Plotly, Dash, Bokeh, Streamlit
+•	Django
+Data Engineering Tools
+•	Apache Spark
+•	Apache Airflow
+•	Apache Kafka
+•	MySQL, PostgreSQL, IBM Db2, MS SQL Server
+•	MongoDB, Cassandra
+•	Power BI, Looker, Cognos
+•	AWS
+•	Linux
+•	Docker
+•	Rest API
+Experience
+AI Researcher @ AGH University of Krakow
+2021-2024
+•	Initiated and developed innovative machine learning-based solutions to address real-world environmental measurement challenges while working on an international EU project. Produced deliverables, including two peer-reviewed scientific articles and numerous conference presentations, significantly bolstering the project’s success.
+[Paper 1] Estimation of Small-Stream Water Surface Elevation Using UAV Photogrammetry and Deep Learning
+[Paper 2] Self-Calibration of UAV Thermal Imagery Using Gradient Descent Algorithm
+The solutions were built using PyTorch and utilize custom models and loss functions.
+Other projects:
+o	Time series forecasting of groundwater levels with autoregressive modelling and exogenous variables.
+o	Time series forecasting of electrical production and consumption of photovoltaics prosumers using gradient boosting algorithm.
+o	Semantic segmentation of satellite imagery.
+o	Image segmentation based on user prompt.
+•	Served as deputy chairman of the doctoral student government, organizing large events and assisting with individual student concerns.
+Freelancer
+2020-2023
+•	Consulted on machine learning solutions to enhance decision-making in medical applications using Python and Scikit-learn.
+•	Developed portrait image processing and analysis software to facilitate social media content creation using Python, OpenCV, Selenium, and Scikit-learn.
+•	Created a web application to improve the competitiveness of a physics course by assisting students in preparing for their final high school exams using Python, Django, and PostgreSQL.
+•	Developed a Q&A chatbot with a custom knowledge base that operates successfully in a production environment using Langchain, a vector database, and Streamlit.
+Industrial Machines Programmer @ Averna
+2016-2019
+•	Successfully executed and completed a number of complex engineering projects on time, ensuring steady income and predictability in company planning.
+•	Developed software solutions for large-scale data collection using MS SQL Server.
+•	Designed and implemented test solutions for production lines for companies such as BMW and Tesla.
+•	Made critical decisions under pressure in demanding production line environments.
+Certificates
+•	IBM Data Engineering Specialization
+5-month specialization program including 13 courses on methodologies and tools for ETL, Pipelines, Data Streaming, Big Data, RDBMS, NoSQL, Data Warehouses, and BI tools.
+•	IBM Data Science Specialization
+5-month specialization program including 10 courses on CRISP-DM methodology, stakeholder communication, reporting, data cleaning, data analysis, machine learning, and dashboard building.
+Education
+•	PhD Studies @ AGH University of Krakow
+2019-2024
+Thesis title: “Development of new hydrological measurement solutions using drones and machine learning”.
+•	Technical Physics @ AGH University of Krakow
+2013-2018
+Engineering and Master’s degree including courses in statistics, mathematics, Python, C, C++, Java, databases, and English.
+Interests
+Passionate about data science competitions, statistics, computer science, psychology, communication, and engaging in sports activities.
